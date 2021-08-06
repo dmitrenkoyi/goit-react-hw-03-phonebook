@@ -1,0 +1,42 @@
+.Form {
+  width: 300px;
+
+  & input {
+    padding: 8px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: solid 3px #a2a9d5;
+    margin-top: 10px;
+
+    &:hover,
+    &:focus {
+      border: solid 3px #303f9f;
+    }
+  }
+
+  & label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+}
+
+.Btn {
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+
+  border-radius: 5px;
+  padding: 10px 24px;
+  background-color: #3f51b5;
+  color: white;
+  font-weight: 500;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
+  &:hover,
+  &:focus {
+    background-color: #303f9f;
+  }
+}

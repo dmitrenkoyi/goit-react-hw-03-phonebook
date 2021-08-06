@@ -1,0 +1,18 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  & input {
+    padding: 4px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: solid 3px #a2a9d5;
+    margin-top: 10px;
+
+    &:hover,
+    &:focus {
+      border: solid 3px #303f9f;
+    }
+  }
+}
